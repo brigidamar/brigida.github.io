@@ -9,6 +9,8 @@ function setup()
 function draw() 
 {
   background( random(0, 255), random(0, 255), random(0, 255) );
+
+  rect(30, 10, 250, 250)
 }
 
 
