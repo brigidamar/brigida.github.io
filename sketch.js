@@ -3,9 +3,10 @@
 function setup() 
 {
   createCanvas (windowWidth, windowHeight);
-  frameRate(1)
+  frameRate(random (1, 60))
 }
 
+//function draw é onde se desenha tudo//
 
 function draw() 
 {
@@ -25,7 +26,7 @@ function draw()
 
   line(width/2, 0, width/2, height);
 
-  point(20, 20);
+  point(20, 20,);
 }
 
 
