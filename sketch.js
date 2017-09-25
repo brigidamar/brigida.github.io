@@ -14,7 +14,10 @@ function draw()
   fill(255);
   stroke(150);
   strokeWeight(8);
-  rect(30, 10, 250, 250);
+  rectMode(CENTER)
+  rect(width/2, height/2, 250, 250);
+
+  ellipse (width/2, height/2, 200, 200)
 }
 
 
