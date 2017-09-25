@@ -10,7 +10,8 @@ function draw()
 {
   background( random(0, 255), random(0, 255), random(0, 255) );
 
-  rect(30, 10, 250, 250)
+  fill(255);
+  rect(30, 10, 250, 250);
 }
 
 
