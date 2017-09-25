@@ -3,6 +3,9 @@
 function setup() 
 {
   createCanvas (windowWidth, windowHeight);
+
+  colorMode (RGB, 255, 255, 255, 100);
+
   frameRate(random (1, 60))
 }
 
