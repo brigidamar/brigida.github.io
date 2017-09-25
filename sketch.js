@@ -15,6 +15,7 @@ function draw()
   stroke(150);
   strokeWeight(8);
   rectMode(CENTER)
+  noFill();
   rect(width/2, height/2, 250, 250);
 
   fill(0, 255, 0);
